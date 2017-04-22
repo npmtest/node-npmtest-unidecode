@@ -1,4 +1,7 @@
-# test coverage for  [unidecode (v0.1.8)](http://blog.fgribreau.com/2012/05/unidecode-for-javascript-nodejs.html)  [![npm package](https://img.shields.io/npm/v/npmtest-unidecode.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-unidecode) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-unidecode.svg)](https://travis-ci.org/npmtest/node-npmtest-unidecode)
+# npmtest-unidecode
+
+#### basic test coverage for  [unidecode (v0.1.8)](http://blog.fgribreau.com/2012/05/unidecode-for-javascript-nodejs.html)  [![npm package](https://img.shields.io/npm/v/npmtest-unidecode.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-unidecode) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-unidecode.svg)](https://travis-ci.org/npmtest/node-npmtest-unidecode)
+
 #### ASCII transliterations of Unicode text
 
 [![NPM](https://nodei.co/npm/unidecode.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/unidecode)
@@ -82,7 +85,8 @@
         "lint": "jshint *.js */*.js",
         "test": "mocha"
     },
-    "version": "0.1.8"
+    "version": "0.1.8",
+    "bin": {}
 }
 ```
 
